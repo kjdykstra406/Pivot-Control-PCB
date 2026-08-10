@@ -1,0 +1,2055 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "454e86a5-fc0e-4051-ab19-aa2ff16107bc")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Connector:Screw_Terminal_01x01"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x01"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Screw_Terminal_01x01_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Relay:Fujitsu_FTR-LYCA005x"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "K"
+				(at 11.43 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Fujitsu_FTR-LYCA005x"
+				(at 11.43 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Relay_THT:Relay_SPDT_Fujitsu_FTR-LYCA005x_FormC_Vertical"
+				(at 11.43 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "https://www.fujitsu.com/sg/imagesgig5/ftr-ly.pdf"
+				(at 16.51 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Description" "Relay, SPDT Form C, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "6A SPDT Relay"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Relay*Fujitsu*FTR?LYC*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Fujitsu_FTR-LYCA005x_0_0"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 2.54) (xy 6.985 3.175) (xy 7.62 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fujitsu_FTR-LYCA005x_0_1"
+				(rectangle
+					(start -10.16 5.08)
+					(end 10.16 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -8.255 1.905)
+					(end -1.905 -1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -7.62 -1.905) (xy -2.54 1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 5.08) (xy -5.08 1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -5.08) (xy -5.08 -1.905)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 0) (xy 0 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.905 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 5.08) (xy 2.54 2.54) (xy 3.175 3.175) (xy 2.54 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.175 0) (xy 3.81 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 3.175 3.81)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Fujitsu_FTR-LYCA005x_1_1"
+				(pin passive line
+					(at 5.08 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 7.62 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 7.62 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 7.62 270)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 90)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "WATER COM"
+		(exclude_from_sim no)
+		(at 222.504 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2639bf7e-9e83-4a43-801e-dace6a0fc332")
+	)
+	(text "INPUT 33-B1\nSAFETY"
+		(exclude_from_sim no)
+		(at 138.43 16.764 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2e9f5814-7535-400a-a15d-e34fbc1b3fd9")
+	)
+	(text "TO RPM BOX FWD/RVS\nCONTACTOR SWITCHES"
+		(exclude_from_sim no)
+		(at 146.812 90.424 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3b883a25-892e-4307-8f8d-0c222fa3ef61")
+	)
+	(text "SAFETY\nFROM RPM BOX"
+		(exclude_from_sim no)
+		(at 27.94 30.734 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4aee8934-d63c-4d68-acd9-fa6becc17006")
+	)
+	(text "RUN FROM\nRPM BOX"
+		(exclude_from_sim no)
+		(at 31.242 92.202 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5273ad61-99e1-46af-898e-d399b1f19d53")
+	)
+	(text "PERC. TMR. COM"
+		(exclude_from_sim no)
+		(at 225.044 46.228 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "57c3b81c-c3b2-4763-987d-43df57184839")
+	)
+	(text "120VAC"
+		(exclude_from_sim no)
+		(at 29.718 59.436 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5c032766-5f0c-4f9a-ae1c-2b370327960d")
+	)
+	(text "PUMP COM"
+		(exclude_from_sim no)
+		(at 222.25 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5c726c14-68be-4119-9c47-0bdccdc849b3")
+	)
+	(text "E.G.2 COM"
+		(exclude_from_sim no)
+		(at 221.996 51.054 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "96ce4cf3-1262-45be-ad56-696a40e668c2")
+	)
+	(text "CHEM. COM"
+		(exclude_from_sim no)
+		(at 222.25 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a412a756-7d03-467d-ae1e-eb6d8ad0e8a1")
+	)
+	(text "E.G.1 COM"
+		(exclude_from_sim no)
+		(at 221.996 48.514 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b8c0953a-3ebb-49d8-a187-7d21071ac8a9")
+	)
+	(text "RVS COM"
+		(exclude_from_sim no)
+		(at 221.488 43.434 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c5f68922-882a-48a1-9224-bff95e3f0ddb")
+	)
+	(text "FWD COM"
+		(exclude_from_sim no)
+		(at 221.488 40.894 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "da58567d-7db2-472c-93d0-e610210e7e52")
+	)
+	(text "INPUT 34-B2\nRUN"
+		(exclude_from_sim no)
+		(at 198.374 30.734 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ed7709e4-24ac-4968-a674-bef657a7f672")
+	)
+	(text "TO SPAN- NEUTRAL COMPLETE\nWHEN SAFETY CIRCIUT OKAY"
+		(exclude_from_sim no)
+		(at 184.15 16.51 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fe8dbc74-caa7-422b-9fa2-a425c230b7a5")
+	)
+	(junction
+		(at 59.69 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "041db888-921c-4a17-b3e2-a8089b736ec1")
+	)
+	(junction
+		(at 212.09 48.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "45b92322-04a1-4c8a-b88e-6914802fa163")
+	)
+	(junction
+		(at 212.09 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "52edd2b4-b4f9-45ba-a4b3-f454edae9397")
+	)
+	(junction
+		(at 212.09 40.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "91330098-b264-471d-b2fe-6826ccae4655")
+	)
+	(junction
+		(at 186.69 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "98b8f17b-dcec-4018-bfc0-c34dbf0f6307")
+	)
+	(junction
+		(at 212.09 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a96ce4f5-249d-4dce-b7ea-bf0f8e53a6a4")
+	)
+	(junction
+		(at 212.09 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cad166e8-365c-4076-9970-a13b697b9d35")
+	)
+	(junction
+		(at 212.09 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cc3af3cc-42f1-4b06-9899-a30febd78061")
+	)
+	(junction
+		(at 128.27 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cdad2722-43b6-4283-96a2-e315227ef239")
+	)
+	(junction
+		(at 212.09 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ff21864a-2c5d-458b-92b5-657ebe189977")
+	)
+	(wire
+		(pts
+			(xy 81.28 53.34) (xy 128.27 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0330728b-bb17-4176-a0c7-381a46e147eb")
+	)
+	(wire
+		(pts
+			(xy 212.09 38.1) (xy 215.9 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1353b269-f64e-4fbf-8a61-ce04cb5a75fd")
+	)
+	(wire
+		(pts
+			(xy 212.09 50.8) (xy 215.9 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13fd6eff-6cc8-44e0-9124-9f176143af72")
+	)
+	(wire
+		(pts
+			(xy 81.28 66.04) (xy 101.6 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19652afa-9f7f-429d-9926-4b907f1742e6")
+	)
+	(wire
+		(pts
+			(xy 100.33 109.22) (xy 186.69 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bb0c6c2-0d45-4587-900a-ad8b68c538c6")
+	)
+	(wire
+		(pts
+			(xy 128.27 29.21) (xy 161.29 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c6dc503-ae28-4541-a288-78b63d0f71f1")
+	)
+	(wire
+		(pts
+			(xy 212.09 48.26) (xy 212.09 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dcf9355-563f-4861-bfe3-b318eab0e53a")
+	)
+	(wire
+		(pts
+			(xy 34.29 55.88) (xy 59.69 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32dff14b-d042-4816-804d-d606f46f747a")
+	)
+	(wire
+		(pts
+			(xy 212.09 43.18) (xy 212.09 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cda320e-ed54-411c-a7f4-6385d014ed6f")
+	)
+	(wire
+		(pts
+			(xy 59.69 55.88) (xy 66.04 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46120da6-3e18-44c6-8d82-06e1a4436ff7")
+	)
+	(wire
+		(pts
+			(xy 212.09 40.64) (xy 212.09 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53cf4b93-22b1-40ab-afb5-14123b054590")
+	)
+	(wire
+		(pts
+			(xy 186.69 38.1) (xy 186.69 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a061a40-1a11-4d8f-ae80-a43d6e94ced7")
+	)
+	(wire
+		(pts
+			(xy 212.09 55.88) (xy 215.9 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ef03521-9ddb-48c1-aa84-9a849e1ae610")
+	)
+	(wire
+		(pts
+			(xy 66.04 66.04) (xy 59.69 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f7c99b3-f0fd-496e-b8c4-9f9dbbdcfd41")
+	)
+	(wire
+		(pts
+			(xy 186.69 30.48) (xy 190.5 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62934f37-2742-4ad2-91c3-f2ff34c83154")
+	)
+	(wire
+		(pts
+			(xy 161.29 29.21) (xy 161.29 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64214bd7-6d87-4173-9341-d97ca745b958")
+	)
+	(wire
+		(pts
+			(xy 212.09 45.72) (xy 212.09 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "648980d3-1092-46c8-9c75-fc27d7a35791")
+	)
+	(wire
+		(pts
+			(xy 212.09 53.34) (xy 212.09 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "680fcc49-e9f1-4421-86c0-ce3f7cefd3e0")
+	)
+	(wire
+		(pts
+			(xy 33.02 26.67) (xy 105.41 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a6ab8d0-949a-4aab-b14a-f8bc0ccb63fa")
+	)
+	(wire
+		(pts
+			(xy 212.09 50.8) (xy 212.09 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "749445e0-ef29-4e67-ab05-6d4907c0f3ba")
+	)
+	(wire
+		(pts
+			(xy 212.09 45.72) (xy 215.9 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76a5e9e6-44d4-41a9-9920-b95d2d4a48a7")
+	)
+	(wire
+		(pts
+			(xy 105.41 92.71) (xy 100.33 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "77efd126-44e7-457c-a59e-56915f0645c9")
+	)
+	(wire
+		(pts
+			(xy 128.27 16.51) (xy 130.81 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83b19714-6b91-4329-a3f9-60afc2adbb91")
+	)
+	(wire
+		(pts
+			(xy 212.09 48.26) (xy 215.9 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8478505a-de57-48f5-bd86-dd9f782cd940")
+	)
+	(wire
+		(pts
+			(xy 59.69 66.04) (xy 59.69 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "850aa803-2a29-4b3b-863b-9128f1d942c8")
+	)
+	(wire
+		(pts
+			(xy 186.69 109.22) (xy 186.69 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8df28698-6861-4033-9ef7-1c0193303426")
+	)
+	(wire
+		(pts
+			(xy 175.26 38.1) (xy 186.69 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fc3c098-407f-4469-a803-caa6b71a9c8f")
+	)
+	(wire
+		(pts
+			(xy 212.09 40.64) (xy 215.9 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a53e460f-b611-444d-a8a9-eeb9f6b0f229")
+	)
+	(wire
+		(pts
+			(xy 120.65 90.17) (xy 127 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa814431-a616-4453-bbcc-36ae312fd1bc")
+	)
+	(wire
+		(pts
+			(xy 120.65 29.21) (xy 128.27 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaee309c-df6c-4cc1-837b-c121242a5356")
+	)
+	(wire
+		(pts
+			(xy 212.09 43.18) (xy 215.9 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1e04e34-2e6e-49cd-aea6-39c419a3bc2a")
+	)
+	(wire
+		(pts
+			(xy 35.56 87.63) (xy 105.41 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6f1d8d8-e096-418c-a15f-119e3a93e9fd")
+	)
+	(wire
+		(pts
+			(xy 186.69 38.1) (xy 212.09 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bca9598c-7fcc-4146-8b64-979190f00eee")
+	)
+	(wire
+		(pts
+			(xy 143.51 50.8) (xy 160.02 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcf33280-2725-400c-a352-e266ce2692c1")
+	)
+	(wire
+		(pts
+			(xy 128.27 29.21) (xy 128.27 16.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdf44420-8130-4293-972e-2ad9ff1f4840")
+	)
+	(wire
+		(pts
+			(xy 212.09 53.34) (xy 215.9 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cba94831-48ed-400d-822d-9d1de564fb7b")
+	)
+	(wire
+		(pts
+			(xy 101.6 31.75) (xy 105.41 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df97e4e2-02f0-4f83-a770-38b30ae8ee83")
+	)
+	(wire
+		(pts
+			(xy 101.6 66.04) (xy 101.6 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e281da11-f25c-44e2-9f61-f928caf196e4")
+	)
+	(wire
+		(pts
+			(xy 100.33 92.71) (xy 100.33 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6f7f281-1ce5-4afd-9375-6dec2421d213")
+	)
+	(wire
+		(pts
+			(xy 212.09 38.1) (xy 212.09 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7a86494-b4ca-4437-a570-fbed60751ae0")
+	)
+	(symbol
+		(lib_id "Relay:Fujitsu_FTR-LYCA005x")
+		(at 113.03 95.25 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1c547b89-6447-4de0-a1aa-14373c385dce")
+		(property "Reference" "LR2"
+			(at 112.776 82.042 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fujitsu_FTR-LYCA005x"
+			(at 113.03 82.55 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPDT_Fujitsu_FTR-LYCA005x_FormC_Vertical"
+			(at 114.3 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.fujitsu.com/sg/imagesgig5/ftr-ly.pdf"
+			(at 116.84 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Relay, SPDT Form C, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
+			(at 113.03 95.25 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "14"
+			(uuid "c1c6e522-ec69-47e6-b759-a36c08c3bfe0")
+		)
+		(pin "A1"
+			(uuid "32967331-e292-4204-a2ee-78cbdcace68b")
+		)
+		(pin "11"
+			(uuid "4699c7a9-1ab1-44c2-bf49-bf4af92dfa8c")
+		)
+		(pin "12"
+			(uuid "4a434925-4af2-4f16-8c7e-d992eba3487b")
+		)
+		(pin "A2"
+			(uuid "3ad42f96-ede5-4124-b4ad-af92889e0f8b")
+		)
+		(instances
+			(project "Safety-Run-Enable"
+				(path "/454e86a5-fc0e-4051-ab19-aa2ff16107bc"
+					(reference "LR2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:Fujitsu_FTR-LYCA005x")
+		(at 135.89 58.42 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "396283af-805c-4e8f-8a8a-f3a84b644c1b")
+		(property "Reference" "TC-4"
+			(at 135.636 45.974 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fujitsu_FTR-LYCA005x"
+			(at 135.89 45.72 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPDT_Fujitsu_FTR-LYCA005x_FormC_Vertical"
+			(at 134.62 46.99 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.fujitsu.com/sg/imagesgig5/ftr-ly.pdf"
+			(at 132.08 41.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Relay, SPDT Form C, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
+			(at 135.89 58.42 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "14"
+			(uuid "7c2dece5-173f-4a18-85c6-3985506808b8")
+		)
+		(pin "A1"
+			(uuid "400c339b-3ec0-48d9-af73-26c2b0e4d590")
+		)
+		(pin "11"
+			(uuid "93fc3b76-4d7f-4300-9da9-3c6e49a335b7")
+		)
+		(pin "12"
+			(uuid "d9e8cd5f-5849-4a14-b23a-aac5929653d3")
+		)
+		(pin "A2"
+			(uuid "4be91011-1983-42dd-a808-a45f954dd0ba")
+		)
+		(instances
+			(project "Safety-Run-Enable"
+				(path "/454e86a5-fc0e-4051-ab19-aa2ff16107bc"
+					(reference "TC-4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 27.94 26.67 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8bad993f-886a-41b4-8b4a-1b5aa3defb97")
+		(property "Reference" "T1"
+			(at 27.94 23.622 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x01"
+			(at 27.94 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 27.94 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 27.94 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 27.94 26.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d3bf72c7-ecef-40c5-aa6e-96fe529a9e9b")
+		)
+		(instances
+			(project "Safety-Run-Enable"
+				(path "/454e86a5-fc0e-4051-ab19-aa2ff16107bc"
+					(reference "T1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 154.94 40.64 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8d2ff499-2b15-46f1-af54-04edd15a23e0")
+		(property "Reference" "L1"
+			(at 154.686 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x01"
+			(at 154.94 36.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 154.94 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5bd625d8-1a04-467a-bbeb-a25cdf9f798b")
+		)
+		(instances
+			(project "Safety-Run-Enable"
+				(path "/454e86a5-fc0e-4051-ab19-aa2ff16107bc"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 132.08 90.17 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8d37a374-a1d2-4b1f-ba20-0ae3d9c2d6db")
+		(property "Reference" "T4"
+			(at 131.572 87.122 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x01"
+			(at 134.62 91.4399 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 132.08 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 132.08 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 132.08 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "606b0c9b-78cb-48f6-a53c-525b33bd0685")
+		)
+		(instances
+			(project "Safety-Run-Enable"
+				(path "/454e86a5-fc0e-4051-ab19-aa2ff16107bc"
+					(reference "T4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 30.48 87.63 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "aad7edaf-8e47-4240-99a1-3e6d06fb28c1")
+		(property "Reference" "T3"
+			(at 30.48 84.328 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x01"
+			(at 30.48 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 30.48 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 30.48 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "20abc6db-1fb7-4d32-81ed-b0d2bca01712")
+		)
+		(instances
+			(project "Safety-Run-Enable"
+				(path "/454e86a5-fc0e-4051-ab19-aa2ff16107bc"
+					(reference "T3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:Fujitsu_FTR-LYCA005x")
+		(at 73.66 60.96 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b134190a-4415-4318-b4b4-244514732ec4")
+		(property "Reference" "SAFETY"
+			(at 73.152 48.768 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fujitsu_FTR-LYCA005x"
+			(at 73.66 48.26 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPDT_Fujitsu_FTR-LYCA005x_FormC_Vertical"
+			(at 72.39 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.fujitsu.com/sg/imagesgig5/ftr-ly.pdf"
+			(at 69.85 44.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Relay, SPDT Form C, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
+			(at 73.66 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "14"
+			(uuid "19b029f1-481a-48c7-a8de-d4c9ad628474")
+		)
+		(pin "A1"
+			(uuid "e1983b78-4ea1-4bca-b4c7-622d44fa85eb")
+		)
+		(pin "11"
+			(uuid "6d901db5-0161-4175-b070-e86703e5e3b1")
+		)
+		(pin "12"
+			(uuid "0bbbe054-b66d-4e81-8cfc-a526bdb9f137")
+		)
+		(pin "A2"
+			(uuid "1ae11e15-0b0d-4d82-86a1-8f3448566854")
+		)
+		(instances
+			(project "Safety-Run-Enable"
+				(path "/454e86a5-fc0e-4051-ab19-aa2ff16107bc"
+					(reference "SAFETY")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:Fujitsu_FTR-LYCA005x")
+		(at 167.64 45.72 270)
+		(mirror x)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b886029b-7fa6-4c0e-8bc8-d83f7dc00381")
+		(property "Reference" "RUN"
+			(at 167.64 32.512 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fujitsu_FTR-LYCA005x"
+			(at 167.64 33.02 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPDT_Fujitsu_FTR-LYCA005x_FormC_Vertical"
+			(at 166.37 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.fujitsu.com/sg/imagesgig5/ftr-ly.pdf"
+			(at 163.83 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Relay, SPDT Form C, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
+			(at 167.64 45.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "14"
+			(uuid "f56c4f3b-e844-41df-82df-1474a4625595")
+		)
+		(pin "A1"
+			(uuid "bb276174-5961-4dd8-bf43-a15309a67b4d")
+		)
+		(pin "11"
+			(uuid "220c0bcc-cbdc-403f-8977-fc154fccf427")
+		)
+		(pin "12"
+			(uuid "e25f2160-0cbe-46ac-af39-da9b14f21e8e")
+		)
+		(pin "A2"
+			(uuid "c1961259-b646-4ba0-a099-6839fd0411ef")
+		)
+		(instances
+			(project "Safety-Run-Enable"
+				(path "/454e86a5-fc0e-4051-ab19-aa2ff16107bc"
+					(reference "RUN")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 166.37 16.51 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ceb24b45-acde-4f53-8352-34e0f935f78b")
+		(property "Reference" "T2"
+			(at 165.354 13.716 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x01"
+			(at 168.91 17.7799 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 166.37 16.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 166.37 16.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 166.37 16.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c2ada7d4-7d74-425a-9659-f3d60ec4f81b")
+		)
+		(instances
+			(project "Safety-Run-Enable"
+				(path "/454e86a5-fc0e-4051-ab19-aa2ff16107bc"
+					(reference "T2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 29.21 55.88 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "de021e56-df7a-4530-beb1-460e53a41b58")
+		(property "Reference" "L1"
+			(at 29.21 52.324 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x01"
+			(at 29.21 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 29.21 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 29.21 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 29.21 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "17397444-6c46-4034-a7a3-9aff28592c49")
+		)
+		(instances
+			(project "Safety-Run-Enable"
+				(path "/454e86a5-fc0e-4051-ab19-aa2ff16107bc"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:Fujitsu_FTR-LYCA005x")
+		(at 113.03 34.29 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e3db87bd-392c-4699-a4a8-058f1d77ddfd")
+		(property "Reference" "LR1"
+			(at 113.03 21.336 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Fujitsu_FTR-LYCA005x"
+			(at 113.03 21.59 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Relay_THT:Relay_SPDT_Fujitsu_FTR-LYCA005x_FormC_Vertical"
+			(at 114.3 22.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "https://www.fujitsu.com/sg/imagesgig5/ftr-ly.pdf"
+			(at 116.84 17.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "Relay, SPDT Form C, vertical mount, 5-60V coil, 6A, 250VAC, 28 x 5 x 15mm"
+			(at 113.03 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "14"
+			(uuid "6d1c68cb-c33c-4e97-b4f6-cb338d4eefee")
+		)
+		(pin "A1"
+			(uuid "5db1e2eb-dab6-4a26-8e87-7b4004fb560e")
+		)
+		(pin "11"
+			(uuid "a8ffe92a-b429-4623-9163-0148c473c01d")
+		)
+		(pin "12"
+			(uuid "773246b8-2872-49e1-bd09-131a294a9e43")
+		)
+		(pin "A2"
+			(uuid "6f9c0dd4-f8b5-4bd8-a5e0-084e68e39800")
+		)
+		(instances
+			(project "Safety-Run-Enable"
+				(path "/454e86a5-fc0e-4051-ab19-aa2ff16107bc"
+					(reference "LR1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

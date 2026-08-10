@@ -1,0 +1,1459 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "5632ba6c-34ff-4a54-b5e1-022e30e0e773")
+	(paper "A0")
+	(lib_symbols
+		(symbol "Pivot PCB:G6RN-1_DC5"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "K"
+				(at 20.32 10.16 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "G6RN-1 DC5"
+				(at 20.32 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "RELAY_G6RN-1_OMR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "G6RN-1 DC5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "G6RN-1 DC5"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "RELAY_G6RN-1_OMR"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "G6RN-1_DC5_0_1"
+				(polyline
+					(pts
+						(xy 7.62 5.08) (xy 7.62 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -3.175) (xy 20.32 -3.175)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -10.16) (xy 33.02 -10.16)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 19.685 1.905) (xy 20.955 1.905)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 19.685 1.27) (xy 19.685 1.905)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 19.685 0.635) (xy 7.62 0.635)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 19.685 -0.635) (xy 19.685 1.27)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 20.32 -5.08) (xy 20.32 -3.175)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 20.32 -5.08) (xy 24.765 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 20.955 1.905) (xy 20.955 -0.635)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 20.955 0.635) (xy 33.02 0.635)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 20.955 -0.635) (xy 19.685 -0.635)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 24.765 -5.08) (xy 27.305 -4.445)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 26.035 -3.81) (xy 26.67 -4.445)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 26.035 -3.81) (xy 27.305 -3.81)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 26.035 -3.81) (xy 27.305 -3.81) (xy 26.67 -4.445) (xy 26.035 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 26.035 -6.35) (xy 26.67 -5.715)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 26.035 -6.35) (xy 27.305 -6.35)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 26.035 -6.35) (xy 26.67 -5.715) (xy 27.305 -6.35)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 26.67 -3.81) (xy 26.67 -3.175)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 26.67 -6.985) (xy 26.67 -6.35)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 27.305 -3.81) (xy 26.67 -4.445)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 27.305 -6.35) (xy 26.67 -5.715)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 5.08) (xy 7.62 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 -3.175) (xy 26.67 -3.175)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 -6.985) (xy 26.67 -6.985)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 33.02 -10.16) (xy 33.02 5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0.635 0)
+					(length 7.62)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -3.175 0)
+					(length 7.62)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 40.64 0.635 180)
+					(length 7.62)
+					(name "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 40.64 -3.175 180)
+					(length 7.62)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 40.64 -6.985 180)
+					(length 7.62)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "Pivot PCB:G6RN-1_DC5")
+		(at 678.18 168.275 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "02a56b61-14d8-4e56-99f8-eb11dbb2b2cd")
+		(property "Reference" "K7"
+			(at 698.5 158.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "G6RN-1 DC5"
+			(at 698.5 161.29 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "RELAY_G6RN-1_OMR"
+			(at 678.18 168.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "G6RN-1 DC5"
+			(at 678.18 168.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 678.18 168.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "f758ea7e-79fa-4fff-8359-6faa1684496a")
+		)
+		(pin "4"
+			(uuid "f4a87ebb-d86d-4b43-afbf-78f4185e9893")
+		)
+		(pin "1"
+			(uuid "08106eea-34e5-4b97-90ef-a8a3a4e3aa5c")
+		)
+		(pin "5"
+			(uuid "914d7c4b-24eb-458a-9aa3-35b85b831d4b")
+		)
+		(pin "2"
+			(uuid "2d3bf631-f532-4fdc-a4ad-6c8d870431fb")
+		)
+		(instances
+			(project ""
+				(path "/5632ba6c-34ff-4a54-b5e1-022e30e0e773"
+					(reference "K7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Pivot PCB:G6RN-1_DC5")
+		(at 678.18 122.555 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1dd43f6d-acf2-497f-aa12-bd198148164a")
+		(property "Reference" "K5"
+			(at 698.5 113.03 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "G6RN-1 DC5"
+			(at 698.5 115.57 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "RELAY_G6RN-1_OMR"
+			(at 678.18 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "G6RN-1 DC5"
+			(at 678.18 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 678.18 122.555 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "c61ad915-50ce-4bbb-8713-dfdcfb5ccb29")
+		)
+		(pin "2"
+			(uuid "dcbf28be-b631-4bb0-96c4-02224111b8b8")
+		)
+		(pin "3"
+			(uuid "59ca467f-bb20-41bb-9377-f8866894a14c")
+		)
+		(pin "1"
+			(uuid "8020850c-9169-4962-acbf-182905318178")
+		)
+		(pin "5"
+			(uuid "d04ec6f6-ed94-4e3d-880d-1f0a79e530b9")
+		)
+		(instances
+			(project ""
+				(path "/5632ba6c-34ff-4a54-b5e1-022e30e0e773"
+					(reference "K5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Pivot PCB:G6RN-1_DC5")
+		(at 678.18 285.115 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "34e89a05-6be4-4443-8ce1-8a6785a4debc")
+		(property "Reference" "K12"
+			(at 698.5 274.955 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "G6RN-1 DC5"
+			(at 698.5 277.495 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "RELAY_G6RN-1_OMR"
+			(at 678.18 285.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "G6RN-1 DC5"
+			(at 678.18 285.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 678.18 285.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "38812581-dcb7-490f-bf3e-86cb3ba77b0f")
+		)
+		(pin "2"
+			(uuid "f158b780-5b09-45e4-bde2-d1afcbc7c221")
+		)
+		(pin "4"
+			(uuid "6f87dd15-fb0c-4472-8475-91e5af58e413")
+		)
+		(pin "1"
+			(uuid "accaeaa8-6dd7-49e4-a9bc-49d7231edde6")
+		)
+		(pin "5"
+			(uuid "889f99f9-bbb5-4cbb-b0b4-6d38799155e7")
+		)
+		(instances
+			(project ""
+				(path "/5632ba6c-34ff-4a54-b5e1-022e30e0e773"
+					(reference "K12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Pivot PCB:G6RN-1_DC5")
+		(at 679.45 191.135 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51ebd9c8-c03b-4828-946c-ae043add7365")
+		(property "Reference" "K8"
+			(at 699.77 181.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "G6RN-1 DC5"
+			(at 699.77 184.15 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "RELAY_G6RN-1_OMR"
+			(at 679.45 191.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "G6RN-1 DC5"
+			(at 679.45 191.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 679.45 191.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "38812581-dcb7-490f-bf3e-86cb3ba77b0f")
+		)
+		(pin "2"
+			(uuid "f158b780-5b09-45e4-bde2-d1afcbc7c221")
+		)
+		(pin "4"
+			(uuid "6f87dd15-fb0c-4472-8475-91e5af58e413")
+		)
+		(pin "1"
+			(uuid "accaeaa8-6dd7-49e4-a9bc-49d7231edde6")
+		)
+		(pin "5"
+			(uuid "889f99f9-bbb5-4cbb-b0b4-6d38799155e7")
+		)
+		(instances
+			(project ""
+				(path "/5632ba6c-34ff-4a54-b5e1-022e30e0e773"
+					(reference "K8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Pivot PCB:G6RN-1_DC5")
+		(at 678.18 260.985 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5428cdab-590d-4740-8394-3d5e4d6c6ee7")
+		(property "Reference" "K11"
+			(at 698.5 251.46 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "G6RN-1 DC5"
+			(at 698.5 254 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "RELAY_G6RN-1_OMR"
+			(at 678.18 260.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "G6RN-1 DC5"
+			(at 678.18 260.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 678.18 260.985 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "38812581-dcb7-490f-bf3e-86cb3ba77b0f")
+		)
+		(pin "2"
+			(uuid "f158b780-5b09-45e4-bde2-d1afcbc7c221")
+		)
+		(pin "4"
+			(uuid "6f87dd15-fb0c-4472-8475-91e5af58e413")
+		)
+		(pin "1"
+			(uuid "accaeaa8-6dd7-49e4-a9bc-49d7231edde6")
+		)
+		(pin "5"
+			(uuid "889f99f9-bbb5-4cbb-b0b4-6d38799155e7")
+		)
+		(instances
+			(project ""
+				(path "/5632ba6c-34ff-4a54-b5e1-022e30e0e773"
+					(reference "K11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Pivot PCB:G6RN-1_DC5")
+		(at 678.18 145.415 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "67ffdbfa-9243-4300-921e-168e39132d56")
+		(property "Reference" "K6"
+			(at 698.5 135.89 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "G6RN-1 DC5"
+			(at 698.5 138.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "RELAY_G6RN-1_OMR"
+			(at 678.18 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "G6RN-1 DC5"
+			(at 678.18 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 678.18 145.415 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "2c4792e6-fa7c-4763-9c11-fdc582242d0e")
+		)
+		(pin "2"
+			(uuid "af8e37d0-e9d1-429c-a924-832ceedee2fe")
+		)
+		(pin "3"
+			(uuid "b94c0e42-5bb2-4c19-844f-b89cc7fcf4e2")
+		)
+		(pin "1"
+			(uuid "5f0c8962-b060-4cb2-b336-fd2f97d9adc4")
+		)
+		(pin "5"
+			(uuid "6a6a459c-6bb2-48f0-b759-383fce60a1c4")
+		)
+		(instances
+			(project "Pivot Control PCB 1.1"
+				(path "/5632ba6c-34ff-4a54-b5e1-022e30e0e773"
+					(reference "K6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Pivot PCB:G6RN-1_DC5")
+		(at 678.18 53.975 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "750509d6-e738-4e2c-a44e-348cf44919db")
+		(property "Reference" "K2"
+			(at 698.5 44.45 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "G6RN-1 DC5"
+			(at 698.5 46.99 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "RELAY_G6RN-1_OMR"
+			(at 678.18 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "G6RN-1 DC5"
+			(at 678.18 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 678.18 53.975 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4aa9b582-290f-4fea-ae3c-a24f5e820a12")
+		)
+		(pin "2"
+			(uuid "f5354de8-c533-458d-a204-0a871eeb9b34")
+		)
+		(pin "5"
+			(uuid "c03c8e0e-da0a-4eec-ac6a-275e3b23947c")
+		)
+		(pin "4"
+			(uuid "90857798-9338-41ec-a16d-4d280d788ab6")
+		)
+		(pin "3"
+			(uuid "dbc1727b-0912-4ac7-8547-674f3c836bf3")
+		)
+		(instances
+			(project ""
+				(path "/5632ba6c-34ff-4a54-b5e1-022e30e0e773"
+					(reference "K2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Pivot PCB:G6RN-1_DC5")
+		(at 678.18 76.835 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7e23d0a9-e201-4b9e-b90d-5f08dedad005")
+		(property "Reference" "K3"
+			(at 698.5 67.31 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "G6RN-1 DC5"
+			(at 698.5 69.85 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "RELAY_G6RN-1_OMR"
+			(at 678.18 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "G6RN-1 DC5"
+			(at 678.18 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 678.18 76.835 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "bf2160ce-4548-4b59-8aa4-4df9d141bc10")
+		)
+		(pin "2"
+			(uuid "8eab50a5-97ad-49d1-bbc1-d65494e1f65d")
+		)
+		(pin "1"
+			(uuid "c89aecdf-4aaa-4e41-851d-318e7faa8693")
+		)
+		(pin "5"
+			(uuid "f6da0ca1-a289-4cf8-9bb2-b639ba264b29")
+		)
+		(pin "4"
+			(uuid "e0d75965-06ea-4382-9757-e3a1c2af1743")
+		)
+		(instances
+			(project ""
+				(path "/5632ba6c-34ff-4a54-b5e1-022e30e0e773"
+					(reference "K3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Pivot PCB:G6RN-1_DC5")
+		(at 678.18 99.695 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97872861-06bc-44df-a14f-82dbb3e481e4")
+		(property "Reference" "K4"
+			(at 698.5 90.17 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "G6RN-1 DC5"
+			(at 698.5 92.71 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "RELAY_G6RN-1_OMR"
+			(at 678.18 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "G6RN-1 DC5"
+			(at 678.18 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 678.18 99.695 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "4e90e952-4071-454c-86e6-a9accb372999")
+		)
+		(pin "4"
+			(uuid "1aa1694d-9f03-478d-b3eb-759e9cec8f8e")
+		)
+		(pin "3"
+			(uuid "52421b93-b33b-4343-995d-8aa3f4cad691")
+		)
+		(pin "2"
+			(uuid "0afde89c-10fc-463d-a3a6-44357166ce63")
+		)
+		(pin "1"
+			(uuid "cee98e58-f6bc-42da-9fa0-7bcaaa553eb5")
+		)
+		(instances
+			(project ""
+				(path "/5632ba6c-34ff-4a54-b5e1-022e30e0e773"
+					(reference "K4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Pivot PCB:G6RN-1_DC5")
+		(at 678.18 238.125 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "acf35ef7-d87d-4deb-9fa8-7131c11d4c83")
+		(property "Reference" "K10"
+			(at 698.5 228.6 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "G6RN-1 DC5"
+			(at 698.5 231.14 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "RELAY_G6RN-1_OMR"
+			(at 678.18 238.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "G6RN-1 DC5"
+			(at 678.18 238.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 678.18 238.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "38812581-dcb7-490f-bf3e-86cb3ba77b0f")
+		)
+		(pin "2"
+			(uuid "f158b780-5b09-45e4-bde2-d1afcbc7c221")
+		)
+		(pin "4"
+			(uuid "6f87dd15-fb0c-4472-8475-91e5af58e413")
+		)
+		(pin "1"
+			(uuid "accaeaa8-6dd7-49e4-a9bc-49d7231edde6")
+		)
+		(pin "5"
+			(uuid "889f99f9-bbb5-4cbb-b0b4-6d38799155e7")
+		)
+		(instances
+			(project ""
+				(path "/5632ba6c-34ff-4a54-b5e1-022e30e0e773"
+					(reference "K10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Pivot PCB:G6RN-1_DC5")
+		(at 678.18 215.265 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b517309c-c792-43c9-adc3-91deaf5a131e")
+		(property "Reference" "K9"
+			(at 698.5 205.74 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "G6RN-1 DC5"
+			(at 698.5 208.28 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "RELAY_G6RN-1_OMR"
+			(at 678.18 215.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "G6RN-1 DC5"
+			(at 678.18 215.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 678.18 215.265 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "38812581-dcb7-490f-bf3e-86cb3ba77b0f")
+		)
+		(pin "2"
+			(uuid "f158b780-5b09-45e4-bde2-d1afcbc7c221")
+		)
+		(pin "4"
+			(uuid "6f87dd15-fb0c-4472-8475-91e5af58e413")
+		)
+		(pin "1"
+			(uuid "accaeaa8-6dd7-49e4-a9bc-49d7231edde6")
+		)
+		(pin "5"
+			(uuid "889f99f9-bbb5-4cbb-b0b4-6d38799155e7")
+		)
+		(instances
+			(project ""
+				(path "/5632ba6c-34ff-4a54-b5e1-022e30e0e773"
+					(reference "K9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Pivot PCB:G6RN-1_DC5")
+		(at 678.18 31.115 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ddbe0f83-b421-45c7-b5d5-04e653e026dd")
+		(property "Reference" "K1"
+			(at 698.5 21.59 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "G6RN-1 DC5"
+			(at 698.5 24.13 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "RELAY_G6RN-1_OMR"
+			(at 678.18 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "G6RN-1 DC5"
+			(at 678.18 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 678.18 31.115 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a57303af-ad2e-4bc4-9794-9a58b7fbb31f")
+		)
+		(pin "3"
+			(uuid "fd9dbec8-c631-495f-9564-ecc53043f3f6")
+		)
+		(pin "5"
+			(uuid "930f1040-f4b4-40b8-9968-fd68b7a21456")
+		)
+		(pin "2"
+			(uuid "6fa71b49-b404-4b86-b5d3-56c75eb10fc5")
+		)
+		(pin "4"
+			(uuid "1688a6f9-1438-4f43-b43f-f2d615dd7e27")
+		)
+		(instances
+			(project ""
+				(path "/5632ba6c-34ff-4a54-b5e1-022e30e0e773"
+					(reference "K1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
