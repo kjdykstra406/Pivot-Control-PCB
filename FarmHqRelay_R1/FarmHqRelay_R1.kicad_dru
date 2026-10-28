@@ -1,0 +1,54 @@
+(version 1)
+
+# FarmHqRelay_R1 custom design rules.
+# "Mains" = netclasses MAINS and MAINS_BUS, plus relay NC contact pads that are
+# unconnected but sit at line potential whenever the relay is released:
+#   unconnected-(K7-Pad12), unconnected-(K8-Pad12), unconnected-(K11-Pad12), unconnected-(K12-Pad12)
+# Everything else (24V, Default, mounting holes, unnamed nets) is LV.
+
+# 0. Mounting holes (H1 chassis bond via C2, H2-H6 bare rings under metal
+#    screws/standoffs): keep circuit copper back from the hole pads.
+#    1.0 mm to any other-net copper, 2.0 mm to the copper pour.
+#    Listed first so the mains rule below (higher priority) still governs
+#    mains copper near a hole.
+(rule "Mounting hole clearance"
+	(constraint clearance (min 1.0mm))
+	(condition "A.memberOfFootprint('H*') || B.memberOfFootprint('H*')"))
+
+(rule "Mounting hole to pour"
+	(constraint clearance (min 2.0mm))
+	(condition "(A.memberOfFootprint('H*') && B.Type == 'Zone') || (B.memberOfFootprint('H*') && A.Type == 'Zone')"))
+
+# 0b. Unfused 24 V input (J1 to F1, net 24V_IN): 1.0 mm to any other copper,
+#     including the GND pour. Listed before the mains rule so mains spacing
+#     (3.0 mm) still governs if mains copper is ever nearby.
+(rule "Unfused 24V input"
+	(constraint clearance (min 1.0mm))
+	(condition "A.NetName == '24V_IN' || B.NetName == '24V_IN'"))
+
+# 1. Mains to anything LV: 3.0 mm (design target; reinforced across the barrier).
+(rule "Mains to LV clearance"
+	(constraint clearance (min 3.0mm))
+	(condition "((A.hasNetclass('MAINS') || A.hasNetclass('MAINS_BUS') || A.NetName == 'unconnected-(K7-Pad12)' || A.NetName == 'unconnected-(K8-Pad12)' || A.NetName == 'unconnected-(K11-Pad12)' || A.NetName == 'unconnected-(K12-Pad12)') && !(B.hasNetclass('MAINS') || B.hasNetclass('MAINS_BUS') || B.NetName == 'unconnected-(K7-Pad12)' || B.NetName == 'unconnected-(K8-Pad12)' || B.NetName == 'unconnected-(K11-Pad12)' || B.NetName == 'unconnected-(K12-Pad12)')) || ((B.hasNetclass('MAINS') || B.hasNetclass('MAINS_BUS') || B.NetName == 'unconnected-(K7-Pad12)' || B.NetName == 'unconnected-(K8-Pad12)' || B.NetName == 'unconnected-(K11-Pad12)' || B.NetName == 'unconnected-(K12-Pad12)') && !(A.hasNetclass('MAINS') || A.hasNetclass('MAINS_BUS') || A.NetName == 'unconnected-(K7-Pad12)' || A.NetName == 'unconnected-(K8-Pad12)' || A.NetName == 'unconnected-(K11-Pad12)' || A.NetName == 'unconnected-(K12-Pad12)'))"))
+
+# 2. Mains copper to board edge: 3.0 mm (metal enclosure / standoffs).
+(rule "Mains to board edge"
+	(constraint edge_clearance (min 3.0mm))
+	(condition "(A.hasNetclass('MAINS') || A.hasNetclass('MAINS_BUS') || A.NetName == 'unconnected-(K7-Pad12)' || A.NetName == 'unconnected-(K8-Pad12)' || A.NetName == 'unconnected-(K11-Pad12)' || A.NetName == 'unconnected-(K12-Pad12)') || (B.hasNetclass('MAINS') || B.hasNetclass('MAINS_BUS') || B.NetName == 'unconnected-(K7-Pad12)' || B.NetName == 'unconnected-(K8-Pad12)' || B.NetName == 'unconnected-(K11-Pad12)' || B.NetName == 'unconnected-(K12-Pad12)')"))
+
+# 3. FOD814 LED input: NEUTRAL vs the opto anode node differs only by the LED
+#    forward voltage (~1.2 V). Pins 1-2 are 1.04 mm apart, below MAINS 1.5 mm.
+#    Replaces the 1 mm local pad clearance overrides on the opto pads.
+#    Anode nets are labelled AUXn_SENSE in the schematic, so names are stable.
+(rule "FOD814 LED input pair"
+	(constraint clearance (min 1.0mm))
+	(condition "(A.NetName == 'NEUTRAL' && (B.NetName == 'AUX2_SENSE' || B.NetName == 'AUX1_SENSE' || B.NetName == 'AUX3_SENSE' || B.NetName == 'AUX4_SENSE')) || (B.NetName == 'NEUTRAL' && (A.NetName == 'AUX2_SENSE' || A.NetName == 'AUX1_SENSE' || A.NetName == 'AUX3_SENSE' || A.NetName == 'AUX4_SENSE'))"))
+
+# 4. Vias must not touch or overlap SMD pads (any net). A via in a pad's mask
+#    opening wicks solder from the joint. Uses physical_clearance, which is
+#    checked even between same-net items. U2 pad 29 (MCP23017 exposed pad) and its
+#    unnumbered paste-only sub-pads are exempt: the single EP via is
+#    intentional (decided 2026-10-12).
+(rule "Via touching SMD pad"
+	(constraint physical_clearance (min 0.01mm))
+	(condition "(A.Type == 'Via' && B.Type == 'Pad' && B.Pad_Type == 'SMD' && !(B.memberOfFootprint('U2') && (B.Pad_Number == '29' || B.Pad_Number == ''))) || (B.Type == 'Via' && A.Type == 'Pad' && A.Pad_Type == 'SMD' && !(A.memberOfFootprint('U2') && (A.Pad_Number == '29' || A.Pad_Number == '')))"))

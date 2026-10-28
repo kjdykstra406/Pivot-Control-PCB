@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "FarmHQ") (type "KiCad") (uri "${KIPRJMOD}/FarmHQ.kicad_sym") (options "") (descr ""))
+)

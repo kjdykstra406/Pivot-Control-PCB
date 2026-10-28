@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model FOD814ASD
+#/4775468/1303469/2.50/4/2/Phototransistor
+DEF FOD814ASD Q 0 30 Y Y 1 F N
+F0 "Q" 1750 300 50 H V L CNN
+F1 "FOD814ASD" 1750 200 50 H V L CNN
+F2 "SOP254P1016X385-4N" 1750 100 50 H I L CNN
+F3 "https://www.onsemi.com/pub/Collateral/FOD814-D.PDF" 1750 0 50 H I L CNN
+F4 "FOD817C: 200-400%; FOD617D: 160-320%; DIN EN/IEC60747-5-5; AC Input Response (FOD814); FOD814A: 50-150%; FOD817: 50-600%; FOD617C: 100-200%; FOD817A: 80-160%; FOD617B: 63-125%; Safety and Regulatory Approvals; Minimum BVCEO of 70 V Guaranteed; FOD817B: 130-260%; FOD814: 20-300%; FOD817D: 300-600%; FOD617A: 40-80%; UL1577, 5,000 VACRMS for 1 Minute; Current Transfer Ratio in Selected Groups:" 1750 -100 50 H I L CNN "Description"
+F5 "3.85" 1750 -200 50 H I L CNN "Height"
+F6 "512-FOD814ASD" 1750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/onsemi-Fairchild/FOD814ASD?qs=tDbvDnthCW3kdyWR4QJcYg%3D%3D" 1750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "onsemi" 1750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "FOD814ASD" 1750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ANODE_CATHODE 1 0 0 200 R 50 50 0 0 P
+X CATHODE_ANODE 2 0 -100 200 R 50 50 0 0 P
+X COLLECTOR 4 1900 0 200 L 50 50 0 0 P
+X EMITTER 3 1900 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1700 100 1700 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library
